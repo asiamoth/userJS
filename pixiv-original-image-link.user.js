@@ -1,6 +1,7 @@
 // ==UserScript==
 // @id             pixiv-original-image-link
 // @name           pixiv original image link
+// @version        0.2
 // @namespace      http://asiamoth.com/
 // @description    pixiv のイラストページにオリジナル画像へのリンクを追加
 // @include        http://www.pixiv.net/member_illust.php*
@@ -38,5 +39,5 @@ POILink.item.className = 'original-image';
 POILink.item.appendChild(POILink.anchor);
 
 // ソーシャル・ボタンの列に追加して、完成！
-POILink.buttons = POILink.getXpath('//ul[@class="social-button"]');
+POILink.buttons = POILink.getXpath('//ul[@class="share-button"]');
 POILink.buttons.appendChild(POILink.item);
