@@ -1,10 +1,10 @@
 // ==UserScript==
 // @id             pixiv-original-image-link
 // @name           pixiv original image link
-// @version        0.2
+// @version        0.3
 // @namespace      http://asiamoth.com/
 // @description    pixiv のイラストページにオリジナル画像へのリンクを追加
-// @include        http://www.pixiv.net/member_illust.php*
+// @include        http://www.pixiv.net/member_illust.php?mode=medium&illust_id=*
 // ==/UserScript==
 
 // このスクリプト用のオブジェクトと、XPath を取得する関数を作成
